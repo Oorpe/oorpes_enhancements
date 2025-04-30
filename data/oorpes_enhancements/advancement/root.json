@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poppy"
+    },
+    "title": "Skyblock Enhancements",
+    "description": "Renewability enhancements for skyblock"
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "oorpes_enhancements:gravel_thermal_erosion",
+      "oorpes_enhancements:smooth_stone_thermal_erosion"
+    ]
+  }
+}

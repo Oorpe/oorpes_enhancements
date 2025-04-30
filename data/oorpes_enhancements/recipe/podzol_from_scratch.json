@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "pattern": ["###", "###", "BSB"],
+  "key": {
+    "#": "#minecraft:leaves",
+    "B": "minecraft:bone_meal",
+    "S": ["minecraft:sand", "minecraft:gravel"]
+  },
+  "result": {
+    "id": "minecraft:podzol"
+  }
+}

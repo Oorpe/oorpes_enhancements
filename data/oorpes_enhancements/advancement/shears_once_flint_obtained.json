@@ -1,0 +1,21 @@
+{
+  "parent": "oorpes_enhancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:shears"
+    },
+    "title": "Cutting Edge",
+    "description": "Obtain flint for fashioning some lithic shears!"
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "minecraft:flint"}]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["oorpes_enhancements:flint_shears"]
+  }
+}

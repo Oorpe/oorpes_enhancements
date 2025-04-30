@@ -1,0 +1,21 @@
+{
+  "parent": "oorpes_enhancements:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:podzol"
+    },
+    "title": "Just like Mom used to make it",
+    "description": "Obtain leaves to craft podzol according an ancient family recipe"
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "#minecraft:leaves"}]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["oorpes_enhancements:podzol_from_scratch"]
+  }
+}

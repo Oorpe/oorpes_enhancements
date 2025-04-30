@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["AB", "BA"],
+  "key": {
+    "A": "minecraft:string",
+    "B": "minecraft:flint"
+  },
+  "result": {
+    "id": "minecraft:shears"
+  }
+}
